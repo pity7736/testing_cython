@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "hello_world",
+        "name": "src.hello_world",
         "sources": [
-            "hello_world.pyx"
+            "src/hello_world.pyx"
         ]
     },
-    "module_name": "hello_world"
+    "module_name": "src.hello_world"
 }
 END: Cython Metadata */
 
@@ -614,8 +614,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__hello_world
-#define __PYX_HAVE_API__hello_world
+#define __PYX_HAVE__src__hello_world
+#define __PYX_HAVE_API__src__hello_world
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -824,7 +824,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "hello_world.pyx",
+  "src/hello_world.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -1001,12 +1001,12 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'hello_world' */
-#define __Pyx_MODULE_NAME "hello_world"
-extern int __pyx_module_is_main_hello_world;
-int __pyx_module_is_main_hello_world = 0;
+/* Module declarations from 'src.hello_world' */
+#define __Pyx_MODULE_NAME "src.hello_world"
+extern int __pyx_module_is_main_src__hello_world;
+int __pyx_module_is_main_src__hello_world = 0;
 
-/* Implementation of 'hello_world' */
+/* Implementation of 'src.hello_world' */
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_file[] = "file";
 static const char __pyx_k_hola[] = "hola";
@@ -1016,26 +1016,26 @@ static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_hello[] = "hello";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_hello_world[] = "hello world";
-static const char __pyx_k_hello_world_2[] = "hello_world";
-static const char __pyx_k_hello_world_pyx[] = "hello_world.pyx";
+static const char __pyx_k_src_hello_world[] = "src.hello_world";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
+static const char __pyx_k_src_hello_world_pyx[] = "src/hello_world.pyx";
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_hello;
 static PyObject *__pyx_kp_s_hello_world;
-static PyObject *__pyx_n_s_hello_world_2;
-static PyObject *__pyx_kp_s_hello_world_pyx;
 static PyObject *__pyx_n_s_hola;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_name;
 static PyObject *__pyx_n_s_print;
+static PyObject *__pyx_n_s_src_hello_world;
+static PyObject *__pyx_kp_s_src_hello_world_pyx;
 static PyObject *__pyx_n_s_test;
-static PyObject *__pyx_pf_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_3src_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_codeobj_;
 /* Late includes */
 
-/* "hello_world.pyx":2
+/* "src/hello_world.pyx":2
  * 
  * def hello():             # <<<<<<<<<<<<<<
  *     print('hola')
@@ -1043,25 +1043,25 @@ static PyObject *__pyx_codeobj_;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11hello_world_1hello(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_11hello_world_1hello = {"hello", (PyCFunction)__pyx_pw_11hello_world_1hello, METH_NOARGS, 0};
-static PyObject *__pyx_pw_11hello_world_1hello(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_11hello_world_1hello(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_3src_11hello_world_1hello = {"hello", (PyCFunction)__pyx_pw_3src_11hello_world_1hello, METH_NOARGS, 0};
+static PyObject *__pyx_pw_3src_11hello_world_1hello(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("hello (wrapper)", 0);
-  __pyx_r = __pyx_pf_11hello_world_hello(__pyx_self);
+  __pyx_r = __pyx_pf_3src_11hello_world_hello(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_3src_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("hello", 0);
 
-  /* "hello_world.pyx":3
+  /* "src/hello_world.pyx":3
  * 
  * def hello():
  *     print('hola')             # <<<<<<<<<<<<<<
@@ -1069,7 +1069,7 @@ static PyObject *__pyx_pf_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self
  */
   if (__Pyx_PrintOne(0, __pyx_n_s_hola) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
 
-  /* "hello_world.pyx":4
+  /* "src/hello_world.pyx":4
  * def hello():
  *     print('hola')
  *     return 'hello world'             # <<<<<<<<<<<<<<
@@ -1079,7 +1079,7 @@ static PyObject *__pyx_pf_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self
   __pyx_r = __pyx_kp_s_hello_world;
   goto __pyx_L0;
 
-  /* "hello_world.pyx":2
+  /* "src/hello_world.pyx":2
  * 
  * def hello():             # <<<<<<<<<<<<<<
  *     print('hola')
@@ -1088,7 +1088,7 @@ static PyObject *__pyx_pf_11hello_world_hello(CYTHON_UNUSED PyObject *__pyx_self
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("hello_world.hello", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.hello_world.hello", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1147,12 +1147,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
   {&__pyx_n_s_hello, __pyx_k_hello, sizeof(__pyx_k_hello), 0, 0, 1, 1},
   {&__pyx_kp_s_hello_world, __pyx_k_hello_world, sizeof(__pyx_k_hello_world), 0, 0, 1, 0},
-  {&__pyx_n_s_hello_world_2, __pyx_k_hello_world_2, sizeof(__pyx_k_hello_world_2), 0, 0, 1, 1},
-  {&__pyx_kp_s_hello_world_pyx, __pyx_k_hello_world_pyx, sizeof(__pyx_k_hello_world_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_hola, __pyx_k_hola, sizeof(__pyx_k_hola), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
+  {&__pyx_n_s_src_hello_world, __pyx_k_src_hello_world, sizeof(__pyx_k_src_hello_world), 0, 0, 1, 1},
+  {&__pyx_kp_s_src_hello_world_pyx, __pyx_k_src_hello_world_pyx, sizeof(__pyx_k_src_hello_world_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
@@ -1164,13 +1164,13 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "hello_world.pyx":2
+  /* "src/hello_world.pyx":2
  * 
  * def hello():             # <<<<<<<<<<<<<<
  *     print('hola')
  *     return 'hello world'
  */
-  __pyx_codeobj_ = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_hello_world_pyx, __pyx_n_s_hello, 2, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj_)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_codeobj_ = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_hello_world_pyx, __pyx_n_s_hello, 2, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj_)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -1417,14 +1417,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_hello_world) {
+  if (__pyx_module_is_main_src__hello_world) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 2, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "hello_world")) {
-      if (unlikely(PyDict_SetItemString(modules, "hello_world", __pyx_m) < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "src.hello_world")) {
+      if (unlikely(PyDict_SetItemString(modules, "src.hello_world", __pyx_m) < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
     }
   }
   #endif
@@ -1445,13 +1445,13 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
 
-  /* "hello_world.pyx":2
+  /* "src/hello_world.pyx":2
  * 
  * def hello():             # <<<<<<<<<<<<<<
  *     print('hola')
  *     return 'hello world'
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_11hello_world_1hello, NULL, __pyx_n_s_hello_world_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3src_11hello_world_1hello, NULL, __pyx_n_s_src_hello_world); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_hello, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -1467,11 +1467,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init hello_world", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init src.hello_world", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init hello_world");
+    PyErr_SetString(PyExc_ImportError, "init src.hello_world");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
